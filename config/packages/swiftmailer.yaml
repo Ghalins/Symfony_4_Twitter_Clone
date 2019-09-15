@@ -1,0 +1,6 @@
+swiftmailer:
+    url: '%env(MAILER_URL)%' #in environment not in production
+#    spool: { type: 'memory' }
+#    spool:
+#        type: file
+#        path: '%kernel.project_dir%/var/spool' //generate file in this directory
